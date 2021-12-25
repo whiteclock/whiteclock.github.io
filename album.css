@@ -1,0 +1,109 @@
+
+
+body {
+	box-sizing: border-box;
+}
+
+#menu {
+	width : 100%;
+	line-height: 40px;
+	height : 40px;
+	background-color: #eee;
+	margin : 0px;
+	text-align: center;
+	position: fixed;
+	top : 0px;
+
+}
+
+#menu a {
+	color : black;
+	text-decoration: none;
+	font-family: "Times New Roman";
+	margin-right : 50px;
+	margin-left : 50px;
+	line-height: normal;
+}
+
+#menu a:hover {
+	color : #78A0AD;
+}
+
+#title {
+	margin : 0px;
+	text-align: center;
+	padding-top : 40px;
+	padding-bottom: 5px;
+	border-bottom : 1px solid black;
+	margin-top : 40px;
+}
+#title h1 {
+	font-family: fantasy;
+	margin-top : 0px;
+	margin-bottom : 40px;
+	font-size : 3em;
+}
+#title a {
+	text-decoration: none;
+	color : black;
+}
+#title p {
+	margin-bottom: 0px;
+	font-family: "Times New Roman";
+}
+
+#main_pic {
+	display: block;
+	margin-top : 5px;
+	width : 1505px;
+	height : 600px;
+	overflow: hidden;
+}
+
+.pictures {
+	background-color : #fcfcfc;	
+	float : left;
+	width : 270px;
+	height : 410px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom : 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border : 2px solid #D9DFE1;
+	overflow: hidden;
+	font-family: "Times New Roman";
+}
+
+.pictures:hover {
+	border: 2px solid skyblue;
+}
+
+.pictures p {
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+
+
+#branches_of_pic {
+	width : 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.clear {
+	clear: left;
+}
+
+
+
+.info p {
+	font-family: Arial;
+}
+
+
+
+
+
